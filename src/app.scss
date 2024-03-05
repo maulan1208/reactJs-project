@@ -1,0 +1,41 @@
+.heading{
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    
+    .btn-create{
+      width: 10%;
+      background-color: orange;
+      color: white;
+      border-radius: 3px;
+      border: none;
+      margin-bottom: 10px;
+    }
+
+    table{
+      .table-heading{
+        background-color: rgb(29, 122, 122);
+        color: white;
+        border: 10px solid white;
+      }
+      
+      .table-content{
+        background-color: gray;
+        text-align: center;
+
+        .btn-edit{
+          color: orange;
+        }
+
+        .btn-delete{
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }

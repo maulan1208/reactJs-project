@@ -1,0 +1,67 @@
+.heading{
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    
+    .btn-create{
+      width: 10%;
+      background-color: orange;
+      color: white;
+      border-radius: 10px;
+      border: none;
+      margin-bottom: 10px;
+      height: 30px;
+    }
+
+    .btn-create:hover{
+        background-color: rgb(191, 128, 13);
+        cursor: pointer;
+      }
+
+    table{
+        border-collapse: collapse;
+        td, th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+      .table-heading{
+        background-color: rgb(29, 122, 122);
+        color: white;
+        border: 1px solid black;
+      }
+      
+      .table-content{
+        background-color: rgb(213, 202, 202);
+        text-align: center;
+
+        .btn-edit{
+          color: orange;
+        }
+        .btn-edit:hover{
+            color: rgb(132, 95, 26);
+          }
+
+        .btn-delete{
+          background-color: red;
+          color: white;
+          border: none;
+          border-radius: 10px;
+          height: 30px;
+          width: 70px;
+        }
+        .btn-delete:hover{
+            background-color: rgb(96, 9, 9);
+            cursor: pointer;
+          }
+      }
+
+      .table-content:hover{
+        background-color: gray;
+      }
+    }
+  }

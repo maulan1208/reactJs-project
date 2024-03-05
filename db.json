@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "firstName": "nguyễn mậu",
+      "lastName": "lân",
+      "address": "hà nội ",
+      "age": 23,
+      "department": "vti",
+      "id": 1
+    },
+    {
+      "firstName": "nguyễn đức",
+      "lastName": "anh",
+      "address": "hà nội",
+      "age": 20,
+      "department": "FPT",
+      "id": 2
+    },
+    {
+      "firstName": "nguyễn ngọc",
+      "lastName": "Đức",
+      "address": "hồ chí minh",
+      "age": 27,
+      "department": "viettel",
+      "id": 3
+    },
+    {
+      "firstName": "nguyễn mậu lân a",
+      "lastName": "lân",
+      "address": "hà nội",
+      "age": 10,
+      "department": "fpt",
+      "id": 4
+    },
+    {
+      "firstName": "nguyễn mậu lân a",
+      "lastName": "lân",
+      "address": "Xa La, Hà Đông, Hà Nội",
+      "age": 99,
+      "department": "fpt",
+      "id": 5
+    }
+  ]
+}

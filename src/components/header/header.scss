@@ -1,0 +1,32 @@
+.header{
+    height: 150px;
+    background-color: rgb(225, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+      
+        .avatar{
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        .sign-out{
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 5px 20px;
+        }
+        .sign-out:hover{
+            background-color: rgb(130, 91, 20);
+            cursor: pointer;
+        }
+    }
+    
+}

@@ -1,0 +1,56 @@
+.content{
+    background: "#e9e9e9";
+    padding: "40px 0";
+    
+    .heading{
+        margin-top: 10px;
+        align-items: center;
+    }
+    .user-from{
+        width: 30%;
+        margin: 40px auto;
+        padding: 30px;
+        .user-wrapper{
+            margin: 0 0 20px 0;
+            label{
+                display: block;
+                margin: 0 0 8px 0;
+                font-family: robotoMedium, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+            input{
+                display: block;
+                height: 40px;
+                width: 100%;
+                padding: 0 10px;
+                border: 1px solid black;
+            }
+            input:focus{
+                outline: none;
+            }
+            
+            select{
+                display: block;
+                height: 40px;
+                width: 105%;
+                padding: 0 10px;
+                border: 1px solid black;
+                border-radius: 6px;
+            }
+        } 
+        .btn-form {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            letter-spacing: 2px;
+            font-size: 18px;
+            font-family: robotoMedium, Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+        }
+        .btn-form:hover{
+            background-color: rgb(111, 85, 37);
+            cursor: pointer;
+        }
+    }
+}
+
